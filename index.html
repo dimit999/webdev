@@ -20,7 +20,7 @@
                 <a href="#" class="header__link syllabus">Syllabus</a>
               </li>
               <li class="header__item logo">
-                <a href="#" class="header__link">
+                <a href="#" class="header__link header__link_img">
                   <img src="/assets/img/logo.svg" alt="Your life is WebDev">
                 </a>
               </li>
@@ -37,12 +37,12 @@
       <!-- /.header__wrapper -->
     </div>
     <!-- /.wrapper -->
-  <h1 class="display_webdev">webdev</h1>
+    <h1 class="display_webdev">webdev</h1>
   </header>
 
   <main class="main">
     <section class="intro">
-      <div class="wrapper">
+      <div class="intro_wrapper">
         <h1 class="intro__title">your life is WebDev</h1>
         <!-- /.intro__title -->
         <p class="intro__subtitle">Whatever the approach to development may be, the final program must satisfy some fundamental properties</p>
@@ -77,7 +77,7 @@
     </section>
     <!-- /.intro -->
     <section class="rappresent">
-      <div class="wrapper_rappresent">
+      <div class="rappresent_wrapper">
         <article class="rappresent__item">
             <h2 class="rappresent_title">Rappresent your idea with
               a smart Design</h2>
@@ -94,25 +94,112 @@
       <!-- /.wrapper_rappresent -->
     </section>
     <!-- /.rappresent -->
+    <section class="our_community">
+      <div class="our_community_wrapper">
+        <div class="our_community__item_text">
+          <img class="our_community__img" src="/assets/img/community_icon.svg" alt="Our Community">
+          <h2 class="our_community__title">our community</h2>
+          <p class="our_community__subtitle">A hacker is any skilled computer expert that uses their technical knowledge to overcome a problem, but it can also mean a security hacker in common language.</p>
+        </div>
+        <div class="our_community__nav_images">
+          <div class="slider_nav">
+            <a href="/">&lt;</a> <span>1 / 5</span> <a href="/">&gt;</a>
+          </div>
+          <div class="our_community__slider">
+            <ul class="our_community__list">
+              <li class="our_community__item">
+                <div class="our_community__link our_community_1">
+                  <img src="/assets/img/slider-item_1.svg" alt="1">
+                </div>
+              </li>
+              <li class="our_community__item">
+                <div class="our_community__link our_community_2">
+                  <img src="/assets/img/slider-item-2.svg" alt="2">
+                </div>
+              </li>
+              <li class="our_community__item">
+                <div class="our_community__link our_community_3">
+                  <img src="/assets/img/slider-item-3.svg" alt="3">
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.our_community -->
     <section class="implement">
-      <div class="wrapper_implement">
+      <div class="implement_wrapper">
         <article class="imp__image">
             <img class="implement__img" src="/assets/img/implement-image.svg" alt="Implement">
         </article>
         <article class="implement__item">
           <h2 class="implement_title">Implement right Code</h2>
           <!-- /.implement__title -->
-          <p class="implement__subtitle">These might be considered part of the <span class="bold">programming process</span>, but often the term software development is used for this larger process with the term programming, implementation</p>
+          <p class="implement__subtitle">These might be considered part of the <span class="bold">programming process</span>, but often the term software development is used for this larger process with the term programming, implementation.</p>
           <div class="implement__button">
-            <button class="implement__submit_button">get started</button>
+            <button class="implement__submit_button">learn more</button>
           </div>
       </article>
       </div>
       <!-- /.wrapper_implement -->
     </section>
     <!-- /.implement -->
+    <section class="subscribe">
+        <div class="subscribe__wrapper">
+          <!-- <article class="subscribe__item"> -->
+          <h2 class="subscribe__title">sign up for our newsletter</h2>
+          <!-- </article> -->
+          <article class="subscribe__email">
+            <form class="email_form">
+              <input type="email" placeholder="E-mail" class="email" id="email" pattern=".+@gmail.com" required title='Please provide e-mail in the format \"@gmail.com\"'><input type="submit" value="" class="button__send_email">
+            </form>
+        </article>
+        </div>
+      <!-- /.subscribe__wrapper -->
+
+    </section>
+    <!-- /.subscribe -->
+    <section class="download">
+      <div class="download__wrapper">
+        <h1 class="download__title">Download the App</h1>
+        <!-- /.intro__title -->
+        <p class="download__subtitle">Machine code was the language of early programs, written in the instruction set of the particular machine, often in binary notation.</p>
+        <article class="download__buttons">
+           <a href="#" class="button__apple">Apple store</a>
+           <a href="#" class="button__android">Play Market</a>
+        </article>
+      </div>
+    </section>
+    <!-- /.download -->
   </main>
   <!-- /.main -->
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <nav class="nav_footer">
+        <ul class="footer__list">
+          <li class="footer__item credits">
+            <a href="#" class="footer__link_nav credits">Credits</a>
+          </li>
+          <li class="footer__item privacy">
+            <a href="#" class="footer__link_nav privacy">Privacy</a>
+          </li>
+          <li class="footer__item our_teams">
+            <a href="#" class="footer__link_nav our_teams">Our teams</a>
+          </li>
+          <li class="footer__item logo">
+            <a href="#" class="footer__link footer__link_img">
+              <img src="/assets/img/logo.svg" alt="Your life is WebDev">
+            </a>
+          </li>
+          <li class="footer__item rss">
+            <a href="#" class="footer__link_rss rss">by TonYem for RSS at 2020</a>
+          </li>
+        </ul>
+      </nav>
+   </div>
+  </footer>
+  <!-- /.footer -->
 
 </body>
 </html>
