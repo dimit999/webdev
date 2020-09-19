@@ -129,7 +129,7 @@ span.bold {
 .intro {
   background: url(../assets/img/bg-image.jpg) no-repeat center;
   background-size: cover;
-  padding-top: 231px;
+  padding-top: 123px;
 }
 
 .intro__title {
@@ -142,7 +142,7 @@ span.bold {
   letter-spacing: 4.5px;
   text-transform: uppercase;
   color: #FFFFFF;
-  margin-bottom: 36px;
+  margin-bottom: 20px;
   justify-content: center;
 }
 
@@ -156,7 +156,7 @@ span.bold {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   justify-content: center;
   margin: 0 auto;
-  margin-bottom: 36px;
+  margin-bottom: 31px;
 }
 
 .intro__button {
@@ -229,7 +229,7 @@ span.bold {
   margin-left: 268px;
   align-items: center;
   height: 233px;
-  width: 407px;
+  width: 390px;
 }
 
 .rappresent_title {
@@ -237,7 +237,7 @@ span.bold {
   font-size: 24px;
   line-height: 28px;
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   letter-spacing: 1px;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -247,7 +247,8 @@ span.bold {
   font-weight: normal;
   font-size: 14px;
   line-height: 140%;
-  margin-bottom: 30px;
+  margin-bottom: 34px;
+  width: 405px;
 }
 
 .rappresent__button {
@@ -257,7 +258,7 @@ span.bold {
 }
 
 .rappresent__submit_button {
-  padding: 15px 47px;
+  padding: 15px 43px;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -340,10 +341,11 @@ span.bold {
 .slider_nav {
   margin-top: 80px;
   margin-left: 650px;
-  width: 79px;
+  width: 80px;
   height: 20px;
   left: 1252px;
   top: 80px;
+  font-size: 20px;
 }
 
 .our_community__list {
@@ -432,7 +434,7 @@ span.bold {
 }
 
 .implement__submit_button {
-  padding: 15px 47px;
+  padding: 15px 42px;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -680,7 +682,7 @@ input[type="email"] {
 
 .footer__wrapper {
   width: 1600px;
-  height: 184px;
+  height: 200px;
   padding-top: 65px;
   padding-bottom: 91px;
 }
@@ -689,6 +691,7 @@ input[type="email"] {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-left: 55px;
 }
 
 .footer__list {
@@ -752,12 +755,8 @@ input[type="email"] {
 }
 
 .footer_logo {
-  margin-left: 15px;
+  padding-right: 25px;
 }
-
-/* .footer_rss {
-  margin-right: 15px;
-} */
 
 .header__link_img {
   opacity: 100%;
